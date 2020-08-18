@@ -13,10 +13,28 @@ computer.
 """
 
 import pandas as pd
-from Task2A import filtering_crime_type, sum_report_per_year
 import matplotlib.pyplot as plt
 
+def filtering_crime_type(df, crime):
+    '''
+    Takes the given Dataframe and the given string of certain crime. Returns
+    the new filtered Dataframe that will only contains that crime type.
+    '''
+    filtered_df = df[df['Crime_Type'] == crime]
+    
+    return filtered_df
 
+def sum_report_per_year(df):
+    '''
+    Takes the given Dataframe and will returns the sum of crime reports
+    per year in Dataframe format. This function is meant to agg the invivudal 
+    crime type
+    '''
+    sum_year = df.groupby('Report_Year')['Report_Year_Total'].sum()
+    
+    return sum_year
+    
+    
 def get_filter_spd(df):
     ''' 
     Take the given Dataframe, and filtering down to certain eight types of 
