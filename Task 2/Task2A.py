@@ -24,6 +24,7 @@ def filtering_crime_type(df, crime):
     
     return filtered_df
 
+   
 def sum_report_per_year(df):
     '''
     Takes the given Dataframe and will returns the sum of crime reports
@@ -197,8 +198,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
