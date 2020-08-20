@@ -14,9 +14,13 @@ https://data.seattle.gov/dataset/Housing-Cost-Burden-by-Race/2cxc-b9bd
 
 
 
-Jin Ning's NOTE: for some odd reason, my computer doesn't recognize the dataset file path anymore. 
+Jin Ning's NOTE: 
+- (Task 2 folder) for some odd reason, my computer doesn't recognize the dataset file path anymore. 
 All the python scripts for Task 2 was running fine and no errors; however, just yesterday
 and today (as on August 17 and 18), the script wasn't recognizing the file path anymore, 
 and there wasn't a slight change in my code scripts nor I had moved the dataset around. So, 
 therefore, I was unable to make a test case for Task 2 unfortunately.I was using the latest 
 version of Sypder with Python 3.7. 
+- (Task 1 and 3 folder) One of Ruofeng dataset would be missing here ('SPD_Crime_Data__2008_Present.csv') 
+since his dataset contains about 174 mb. Which is strange since Jin's version of that 
+SPD data can mangae to upload it here.
