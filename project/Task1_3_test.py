@@ -268,7 +268,7 @@ def main():
     """
     reads SPD crime data and use of force data and runs all the test methods.
     """
-    df = pd.read_csv('/project/SPD_Crime_Data__2008_Present.csv')
+    df = pd.read_csv('/project/SPD_Crime_Data__2008-Present.csv')
     problem1ab_t(df)
     problem1c_t(df)
     force = pd.read_csv('/project/Use_Of_Force.csv')
