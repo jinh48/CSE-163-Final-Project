@@ -147,9 +147,7 @@ def main():
     tasks. The main function will be expected to create two plots of line
     charts and two plots of bar charts.
     '''
-    burden_data = pd.read_csv(
-        '~/Desktop/CSE/CSE 163/project/part 2/Task 4/' +
-        'Burden.csv')
+    burden_data = pd.read_csv('/project/Burden.csv')
 
     income_stat(burden_data)
     houseing_cost(burden_data)
