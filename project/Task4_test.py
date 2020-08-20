@@ -121,9 +121,7 @@ def main():
     length and values
     '''
 
-    burden_data = pd.read_csv(
-        '~/Desktop/CSE/CSE 163/project/part 2/Task 4/' +
-        'Burden.csv')
+    burden_data = pd.read_csv('/project/Burden.csv')
 
     burden_race_test(burden_data)
     burden_finance_test(burden_data)
