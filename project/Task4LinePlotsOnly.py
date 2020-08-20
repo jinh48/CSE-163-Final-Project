@@ -96,9 +96,7 @@ def main():
     Dataframe will pass down into the two functions that would create five
     lines plots.
     '''
-    burden_data = pd.read_csv(
-        '~/Desktop/CSE/CSE 163/project/part 2/Task 4/' +
-        'Burden.csv')
+    burden_data = pd.read_csv('/project/Burden.csv')
 
     get_percent = percentage_missing_data(burden_data)
     print('Missing Data: ' + str(get_percent) + "%")
